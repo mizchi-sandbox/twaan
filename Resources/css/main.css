@@ -1,0 +1,64 @@
+body{
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    background-color:white;
+    width:95%;
+    height:100%;
+    overflow:none;
+}
+
+#stuff{
+    padding:1px;
+    border:8px solid #CDCDCD;
+}
+ul{
+    -webkit-padding-start: 0;
+    margin:0;
+}
+ul li {
+    list-style-type: none;
+    font-size:80%;
+}
+
+li:nth-child(odd){
+    background-color: lavender;
+}
+
+li:nth-child(even){
+    background-color: aliceblue;
+}
+
+li.tw_container{
+    display:-webkit-box;
+}
+
+div.icon_box{
+    width:40px;
+    height:auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-box-sizing: border-box;
+}
+
+img.icon{
+    width:40px;
+    height:auto;
+}
+
+img.icon {
+    margin:-10px 0px 0px 0;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(10px 40px 30px 1px)
+}
+
+div.mes_box{
+    -webkit-box-ordinal-group: 2;
+    -webkit-box-sizing: border-box;
+    -webkit-box-flex:1;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+.username{
+    font-weight: bold;
+}
+
