@@ -1,0 +1,18 @@
+Twaan
+
+Titanium Project
+
+::動作確認
+まだ MacOSX10.6でしか動作を確認していませんが、OSに依存してはいないと思うので、Titanium Developerでビルドできる,はず
+
+::使い方
+まだ設定用のインターフェースを持っていません。
+Resources/tipy.py の your_id と your_password にご自分のid と pass を記入してください
+
+::キーバインド
+Ctrl-q 終了
+r リロード
+j 下スクロール
+k 上スクロール
+g トップへ
+G 最下層へ
