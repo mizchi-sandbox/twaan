@@ -1,0 +1,27 @@
+#appname:twaan
+#appid:jp.mizchi.twaan
+#publisher:mizchi
+#image:default_app_logo.png
+#url:http://d.hatena.ne.jp
+#guid:005cf8f8-8b43-4bce-a107-efe6418f6e83
+#desc:No description provided
+#type:desktop
+runtime:0.8.4
+api:0.8.4
+javascript:0.8.4
+tianalytics:0.8.4
+tiapp:0.8.4
+tifilesystem:0.8.4
+tiplatform:0.8.4
+tiui:0.8.4
+python:0.8.4
+ticodec:0.8.4
+tidatabase:0.8.4
+tidesktop:0.8.4
+tigrowl:0.8.4
+timedia:0.8.4
+timonkey:0.8.4
+tinetwork:0.8.4
+tinotification:0.8.4
+tiprocess:0.8.4
+tiworker:0.8.4
