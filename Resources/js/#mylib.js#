@@ -1,6 +1,10 @@
 updateUserConfig=function(){
-    localStorage.id=jQuery("input")[0].value
-    localStorage.password=jQuery("input")[1].value
+    localStorage.id=jQuery("input")[0].value;
+    localStorage.password=jQuery("input")[1].value;
+    try{
+	
+    }catch(e){
+    }
 };
 
 jQuery(function() {

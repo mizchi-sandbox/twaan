@@ -3,13 +3,40 @@
   <head>
     <meta charset=UTF-8 />
     <title>myapp test</title>
+    
     <script type="text/javascript" src="js/jquery-1.3.2.js" />
+    <script type="text/javascript" src="js/ui.core.js"></script>
+    <script type="text/javascript" src="js/ui.tabs.js"></script>
     <script type="text/python" src="tipy.py" />
     <script type="text/javascript" src="js/mylib.js" />
+    <link rel="stylesheet" href="css/ui.tabs.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
-  </head>
-<body onload="startup()">
-  <ul id="twitter" />
 
+    
+  </head>
+<body id="on" onload="startup()">
+    <div id="tabs" >
+      <ul>
+	<li><a id="t1" href="#tabs-1">Timeline</a></li>
+	<li><a id="t2" href="#tabs-2">Replies</a></li>
+	<li><a id="t3" href="#tabs-3">Config</a></li>
+	<li><span id="key_check" >null</span></li>
+      </ul>
+      
+      <div id="tabs-1">
+	<ul id="twitter" > &nbsp;</ul>
+      </div>
+      
+      <div id="tabs-2">
+	<ul id="replies">&nbsp;</ul>
+      </div>
+      
+      <div id="tabs-3">
+	<input id="in_id" size="20" value="" name="scname"/>
+	<input id="in_pass" size="20" type="password" value="" name="pass"/>
+	<button onclick="updateUserConfig();">登録</button>
+      </div>
+      
+    </div>
 </body>
 </html>

@@ -1,64 +1,104 @@
 body{
     font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     background-color:white;
-    width:95%;
+    width:100%;
     height:100%;
-    overflow:none;
+    margin:0;
+    overflow:hidden;
 }
 
-#stuff{
-    padding:1px;
-    border:8px solid #CDCDCD;
-}
-ul{
+
+ul#twitter{
+    /* column-width: 600px; */
+    -webkit-column-rule: 1px solid black;
+    -webkit-column-count: 3;
+    -webkit-column-gap:1px;
     -webkit-padding-start: 0;
     margin:0;
 }
-ul li {
+ul#twitter li {
     list-style-type: none;
     font-size:80%;
 }
 
-li:nth-child(odd){
+ul#twitter li:nth-child(odd){
     background-color: lavender;
 }
 
-li:nth-child(even){
+ul#twitter li:nth-child(even){
     background-color: aliceblue;
 }
 
-li.tw_container{
+ul#twitter li.tw_container{
     display:-webkit-box;
 }
 
 div.icon_box{
     width:40px;
-    height:auto;
+    height:18px;
+    overflow: hidden;
     -webkit-box-ordinal-group: 1;
     -webkit-box-sizing: border-box;
+    /* background-color:wheat; */
 }
 
-img.icon{
-    width:40px;
-    height:auto;
-}
 
 img.icon {
-    margin:-10px 0px 0px 0;
-    position: absolute;
+    margin:-18px 0px;
+    padding:1px;
+    width:38px;
+    height:auto;
     overflow: hidden;
-    clip: rect(10px 40px 30px 1px)
+    /* margin:-10px 0 0 0; */
+    /* position: absolute; */
+
+    /* clip: rect(11px 40px 29px 1px); */
+
 }
 
-div.mes_box{
+
+span.username{
     -webkit-box-ordinal-group: 2;
-    -webkit-box-sizing: border-box;
-    -webkit-box-flex:1;
-    white-space: nowrap;
+    display: block;
+    font-weight: bold;
+    width:80px;
     overflow:hidden;
 }
 
-.username{
-    font-weight: bold;
+span.text{
+    -webkit-box-ordinal-group: 3;
+    -webkit-box-sizing: border-box;
+    -webkit-box-flex:1;
+    display: block;
+    white-space: nowrap;
+    overflow:hidden;
+}
+li.ui-corner-top a{
+    color:white;
+}
+span#key_check{
+    color:white;
+    background-color:red;
+    float:right;
 }
 
+ul#replies{
+    -webkit-padding-start: 0;
+    margin:0;
+}
+ul#replies li {
+    list-style-type: none;
+    font-size:80%;
+}
+
+ul#replies li:nth-child(odd){
+    background-color: lavender;
+}
+
+ul#replies li:nth-child(even){
+    background-color: aliceblue;
+}
+
+ul#replies li.tw_container{
+    display:-webkit-box;
+}
