@@ -6,13 +6,18 @@ Titanium Project
 まだ MacOSX10.6でしか動作を確認していませんが、OSに依存してはいないと思うので、Titanium Developerでビルドできる,はず
 
 ::使い方
-まだ設定用のインターフェースを持っていません。
-Resources/tipy.py の your_id と your_password にご自分のid と pass を記入してください
+3を叩いてconfigにid とpassを書いて更新ボタンを押してください//ここで結構クラッシュしますが、次回起動時にちゃんと更新されています
 
 ::キーバインド
 Ctrl-q 終了
+1 Timeline
+2 replies
+3 config
 r リロード
+w リストの展開/圧縮
 j 下スクロール
 k 上スクロール
 g トップへ
-G 最下層へ
+
+
+エラー音がボツボツなるときは一度1を叩いてください
